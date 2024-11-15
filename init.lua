@@ -5,3 +5,6 @@ require("basic")
 if vim.g.neovide then
     require("neovide")
 end
+
+-- Load keybindings
+require("keybindings")
